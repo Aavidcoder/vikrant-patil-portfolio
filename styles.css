@@ -11,6 +11,10 @@ body{
     margin: 0px;
 }
 
+hr{
+    margin: 2rem 0;
+}
+
 .container{
     padding: 0rem 1rem;
 }
@@ -24,6 +28,12 @@ body{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
 .navigation{
@@ -89,4 +99,25 @@ body{
 
 .ow{
     background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
